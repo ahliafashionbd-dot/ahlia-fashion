@@ -1,3 +1,5 @@
+import type { Timestamp } from "firebase/firestore";
+
 export interface ICollection {
   id: string;
   name: string; // e.g., "Digital Printed Lawn Collection"
