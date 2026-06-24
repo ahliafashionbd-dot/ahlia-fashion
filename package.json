@@ -1,6 +1,7 @@
 {
   "name": "ahlia-fashion",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "Premium Bangladeshi Women's Fashion - Vercel-ready deployment",
   "private": true,
   "packageManager": "npm@10.9.2",
   "engines": {
