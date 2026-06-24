@@ -1,18 +1,6 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
 // @ts-ignore: CSS module import type declarations may be missing in this environment
 import "./globals.css";
-
-// Load luxury fonts
-const playfair = Playfair_Display({ 
-  subsets: ["latin"], 
-  variable: "--font-playfair-display" 
-});
-
-const inter = Inter({ 
-  subsets: ["latin"], 
-  variable: "--font-inter" 
-});
 
 export const metadata: Metadata = {
   title: "Ahlia Fashion | Premium Unstitched Collections",
@@ -26,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${playfair.variable} ${inter.variable} antialiased`}>
+      <body className="antialiased">
         {children}
       </body>
     </html>

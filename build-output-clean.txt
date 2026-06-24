@@ -1,0 +1,44 @@
+
+> ahlia-fashion@1.0.0 build
+> next build
+
+   Γû▓ Next.js 15.0.7
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/14) ...
+   Generating static pages (3/14) 
+   Generating static pages (6/14) 
+   Generating static pages (10/14) 
+ Γ£ô Generating static pages (14/14)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+Γöî Γùï /                                    9.17 kB         154 kB
+Γö£ Γùï /_not-found                          170 B           100 kB
+Γö£ Γùï /about                               170 B           100 kB
+Γö£ Γùï /admin                               138 kB          238 kB
+Γö£ Γùï /admin/collections                   170 B           100 kB
+Γö£ Γùï /admin/login                         170 B           100 kB
+Γö£ Γùï /admin/products                      170 B           100 kB
+Γö£ ╞Æ /admin/products/[id]                 170 B           100 kB
+Γö£ ╞Æ /api/products                        170 B           100 kB
+Γö£ Γùï /collections                         170 B           100 kB
+Γö£ ╞Æ /collections/[slug]                  170 B           100 kB
+Γö£ Γùï /contact                             170 B           100 kB
+Γö£ ╞Æ /product/[id]                        170 B           100 kB
+Γö£ Γùï /robots.txt                          0 B                0 B
+Γöö Γùï /sitemap.xml                         0 B                0 B
++ First Load JS shared by all            100 kB
+  Γö£ chunks/4bd1b696-b4d4c3868257e762.js  52.5 kB
+  Γö£ chunks/517-27fc9ef10f039e0b.js       45.6 kB
+  Γöö other shared chunks (total)          1.91 kB
+
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+

@@ -27,9 +27,8 @@ const config: Config = {
         'pure-white': '#FFFFFF',  // Fixed: Added quotes around the hyphenated key
       },
       fontFamily: {
-        // Typography
-        display: ['var(--font-playfair-display)', 'serif'],
-        body: ['var(--font-inter)', 'sans-serif'],
+        display: ['"Playfair Display"', 'serif'],
+        body: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         'xl': '0.875rem', 
